@@ -1,0 +1,9 @@
+# Welcome to BinkSearch!
+
+### A small search tool used to enable Colour-based searches for random items leveraging the AWESOME power of Google!
+
+## Getting Started
+
+This little app is writtten using Python 3 and utilising the Flask micro framework so if you are using your defaul Python on a Mac, It's probably Python 2. If you're using a Windows machine you may not even have Python installed at all! In any case, open a Terminal window in MacOS or open the Command Line in Windows and type the following: `python --version`. If you have anything other than "3.'something'" you'll need to remedy that by installing Python 3. The easiest way to do this is is by going to: https://www.python.org/downloads/ and click on the download option for your operating system. Their website should auto detect which OS you are using (Windows / MacOS / Linux etc.) so just go ahead and download VERSION 3.whatever and install in the usual way.
+
+Now you need to ensure that you are using a virtual environment before going any further. There are MANY reasons for this which would take far too long to go into in a simple ReadMe, the simplest being that you wnat to ensure that each project you build runs that way you want it to without relying on code from elsewhere that might be out of date/sync with your current project. It's just less hassle in the long run. So, with that in mind you need to make sure you van do this. Once again, using the command line/terminal type the following: `virtualenv --version`. This will show you if you have "Virtualenv" installed or not. If not type `pip3 install virtualenv` and let your machine do its thing. Once that is dome you need to 
