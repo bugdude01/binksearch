@@ -1,12 +1,15 @@
-from flask import flask
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
 
 @app.route('/')
-def bink_lookup():
-	return 'What would you like to search for today?'
+def home():
+	return render_template('home.html')
 
+@app.route('/results')
+def results():
+	return render_template('results.html')
 
 if __name__ == '__main__':
 	app.run()

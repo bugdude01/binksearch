@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+</head>
+<body>
+<header>
+  <nav class="navbar navbar-dark bg-dark">
+    <span class="navbar-brand mb-0 h1">ColourSearch</span>
+      <a class="nav-item nav-link" href="{{ url_for('home') }}">Home</a>
+      <a class="nav-item nav-link" href="{{ url_for('results') }}">Results </a>
+   </nav>
+</header>
+   {% block content %}
+   {% endblock %}
+</body>
+</html>
