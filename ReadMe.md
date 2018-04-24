@@ -10,4 +10,8 @@ Now you need to ensure that you are using a virtual environment before going any
 
 You can now go ahead and install Flask in this virtual environment and really start cooking! so without further ado, type `pip install flask` and watch the magic happen. Once that is done you are now ready to fork this repository and access the wonders that lie within.
 
+## Issues encountered
+
+The main issue I encountered was gettin JavaScript to work. Having set up a custom search with Google prioritising Images over pages, restricting this to five results and embedding the call to the function into the buton, I am still unable to get this to work! Currently tearing my hair at at the moment, but I WILL get there . . . . 
+
 If you get stuck at all, or want to discuss anything to do with thos code, I would love to hear from you so please do get in touch 
