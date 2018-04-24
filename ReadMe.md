@@ -10,6 +10,12 @@ Now you need to ensure that you are using a virtual environment before going any
 
 You can now go ahead and install Flask in this virtual environment and really start cooking! so without further ado, type `pip install flask` and watch the magic happen. Once that is done you are now ready to fork this repository and access the wonders that lie within.
 
+## What was done
+
+Initally a framework was set up using a simple flask arangement for routing to a single Home Page. This page was styled using Bootstrap 4 via their CDN rather than downloaing the entire library. There was very little that needed changing so better to keep things simple and reduce the number of requirements.
+
+The main requirement was to set up a custom google search engine. This can be done by visiting https://cse.google.co.uk and setting up a new custom engine. It's fairy self explanatory but you do need a Google ID to set one up. Once that is in place you can grab the code from the CSE dashboard and embed wherever you wish within your own code. My plan was to embed the code into the buttons created and work the code to include both the colour of the box selected and the required random word. 
+
 ## Issues encountered
 
 The main issue I encountered was getting JavaScript to work. Having set up a custom search with Google prioritising Images over pages, restricting this to five results and embedding the call to the function into the button, I am still unable to get this to work! Currently tearing my hair at at the moment, but I WILL get there . . . . 
